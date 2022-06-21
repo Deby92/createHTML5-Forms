@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body>
+  <body class="border border-secondary">
 
-    <div class=container-fluid bg-light><h1>Payment form Example</h1></div>
+    <div class=container-fluid bg-light ><h1>Payment form Example</h1></div>
     <div class="alert alert-danger m-3" role="alert">
         Some fields are missing
       </div>
@@ -78,8 +78,8 @@
                 </div>    
             </div>
         </div>
-        <div class="col-sm-5">
-            <label for="validationDefault05" class="form-label">Message:</label>
+        <div class="col-sm-5 d-flex align-items-end flex-column mb-3">
+            <label for="validationDefault05" class="form-label mt-auto p-2 m-3">Message:</label>
             <div class="form-floating">
                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
                 <div id="textareaHelp" class="form-text">Add any Notes Here.</div>
